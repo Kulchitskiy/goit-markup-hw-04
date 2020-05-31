@@ -209,6 +209,7 @@ h5 {
   line-height: 1.87;
 
   letter-spacing: 0.06em;
+  border-width: 0px;
 }
 .button-hero:focus {
   color: var(--accent-color);
