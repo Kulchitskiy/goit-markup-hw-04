@@ -212,7 +212,7 @@ h5 {
   border-width: 0px;
 }
 .button-hero:focus {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /* Преимущества */
@@ -443,7 +443,8 @@ h5 {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.client-link:hover {
+.client-link:hover,
+.client-link:focus {
   color: var(--accent-color);
   border: 1px solid var(--accent-color);
 }
@@ -584,6 +585,9 @@ button:focus {
 
   border: 1px solid #eeeeee;
   border-radius: 5px;
+}
+.portfoli-link:focus {
+  color: var(--accent-color);
 }
 .portfoli-item:nth-child(3n) {
   margin-right: 0;
